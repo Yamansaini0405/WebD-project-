@@ -13,16 +13,11 @@ header {
 
 .header-panel {
   width: 1005;
-  height: 90px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
-}
-@media (max-width: 1120px) {
-  .header-option .optional {
-    display: none;
-  }
 }
 .header-logo {
   width: 120px;
@@ -30,10 +25,11 @@ header {
 }
 .logo {
   background-image: url(./Assests/logo.png);
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
   background-size: cover;
   margin-left: -30px;
+  margin-top: 10px;
 }
 
 .header-option ul a {
